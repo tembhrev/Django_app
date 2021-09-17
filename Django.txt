@@ -1,0 +1,120 @@
+HTML, CSS and Javascript
+DOM and jquery
+python
+Django and SQLite
+website clone
+
+
+How web works
+-------------
+You start off by typing the URL into your browser.
+
+Your computer then sends this request as a packet, which includes the IP address of the website you want.
+
+It sends this request through wires, or a satellite which eventually links to wires using your ISP.
+
+Your ISP will then re-route the request to the appropriate server location, using the IP address as the guide.
+
+Once your request reaches the server, it can  send back the website you asked for.
+
+However a full website with content is too big to send as a single packet of data.
+
+To solve this, the server sends back the website split up into many packets.
+
+The packets come with instructions on how to get back to you and reassemble once they reach you.
+
+The packets don’t care how they get to you, just the final location.
+
+Once the packets reach you, they are reassembled to show the page.
+
+All of this moves at close to the speed of light, so it happens very fast.
+
+There are two main components of a website
+The Front-End
+The Back-End
+
+The Front-End is what you see as a user on the website. 
+The Back-End is the technology used to actually decide what to show you on the Front-End.
+
+The Front-End revolves around three technologies:
+HTML
+CSS
+Javascript
+
+Front-End technologies such as jQuery and Bootstrap, but those are all built using the previous three.
+
+HTML - HyperText Markup language
+Every website will have HTML, it is the structure of a page.
+You can view it by right-clicking and selecting “View Page Source”
+
+CSS - Cascading Style Sheets
+CSS is the actual styling of the website.
+Colors, fonts, borders, etc is all defined by CSS.
+CSS is not mandatory, but almost all sites have it.
+
+Javascript allows you to add interactivity to the website, including programming logic.
+Any site with interactivity uses Javascript in some way, otherwise the site is “static”.
+
+The Back-End of a site has three components:
+The Language
+The Framework
+The Database
+
+Our course Back-End uses:
+Python as the language
+Django as the Framework
+SQLite as the Database
+
+technologies such as CSS to style the HTML and Javascript to add functionality.
+
+HTML Basics
+Tagging
+Lists
+Divs and Spans
+Attributes
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+<p></p>
+<i></i> or <em></em>
+<b></b> or <strong></strong>
+
+Let’s get all our information on our HTML page organized!
+One way to do this is with a list.
+HTML has two types of lists: ordered and unordered.
+We can then add list elements to each!
+
+<ol></ol>
+<li></li>
+<ul></ul>
+
+Divs and Spans -used to group blocks of HTML
+
+<div class="groupone">
+      <h1>Group One</h1>
+      <p>want to be together in group one</p>
+</div>
+
+<div class="groupone">
+      <h1>Group One</h1>
+      <p>want to be <span>together in</span>group one</p>
+</div>
+
+Attributes:
+-----------
+HTML Attributes allow us to add more information to HTML tags
+This includes things such as adding a link or referencing an image
+
+<img src="view.png" alt="oh! Image not found">
+img is self closing tag
+
+<a href="https://www.google.com">Click Me</a>
+
+
+
+
