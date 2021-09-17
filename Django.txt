@@ -115,6 +115,89 @@ img is self closing tag
 
 <a href="https://www.google.com">Click Me</a>
 
+HTML Tables
+-------------
+Tables in HTML consist of several tags working together:
+<table>
+<thead>
+<th>
+<tr>
+<td>
 
+<table border="5">
+      <thead>
+        <th>number</th>
+        <th>color</th>
+        <th>country</th>
+      </thead>
+      <tr>
+        <td>250</td>
+        <td>Red</td>
+        <td>USA</td>
+      </tr>
+    </table>
+
+Forms
+-----
+Creating Forms in HTML revolves around the <input> tag.
+We will look at various types of inputs for forms and how we can use them to accept user input.
+how to connect these tags to two features:
+Actions
+Labels
+
+The use of the label tag will allow you to add labels in front of an input in your HTML form.
+
+form selections
+---------------
+Radio Button (Linked)
+Drop Down Menus
+Text Area Inputs
+
+
+CSS
+----
+Styling can affect color, font, size, borders, and many more properties of HTML
+While you can define styling inside of an HTML file, it is much more common (and better) to create a separate .css file and then link it to the html file.
+
+Google color picker
+
+rgb -red green blue
+rgba-red green blue alpha(0-1)
+0-fully transparent
+1-opaque
+
+We can use “ids” to target single elements
+We can use “classes” to target groups of elements
+We can then use also use combinations of selector tags to target certain combinations of elements
+
+*--> is used to select every element from the page
+
+CSS topic called “specificity”
+Specificity defines the hierarchy of CSS styling, and what type of tags overrule others.
+
+CSS FONTS
+----------
+When dealing with fonts, we have to keep in mind that not every OS has every font!
+We may need to provide the font for our website.
+
+Because of this we will be exploring a few links:
+OS support for certain fonts
+Downloading fonts
+
+The box model allows us to precisely dictate how we want HTML elements to look.
+-----------
+box model
+=======
+margin
+
+border
+
+padding
+
+content
+=======
+
+1em = 16px
+2em = 32px
 
 
