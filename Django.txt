@@ -200,4 +200,49 @@ content
 1em = 16px
 2em = 32px
 
+Bootstrap is a very common framework used for Front-End Development
+What is a Framework?
+Framework
+Inversion of Control
+Default Behavior
+Extensibility
+Non-modifiable Framework Code
 
+A large part of Bootstrap is not memorization but really understanding how to reference the documentation for your own use cases
+For our level of use of Bootstrap, the differences between v3 and v4 won’t really be apparent to us
+v4 is a major rewrite from v3, but we won’t dive deep enough to notice many of these differences
+
+Some differences:
+Panels are being replaced by cards
+Larger default font sizes
+New grid tier (XL)
+Use of flexbox
+Moved from Less to Sass
+
+A key feature of Bootstrap are its default classes
+You can call these classes to quickly and easily build good looking features for your web application!
+
+We’ll go over button classes as well as container and Jumbotron classes.
+First we will start off by showing how to connect an HTML file to Bootstrap!
+
+Navbars are navigational bars that you will often see on the top of a website
+In this section we will show how to manually create the basics of a NavBar
+
+
+We will also see how to connect an HTML page to Javascript and jQuery
+We haven’t really discussed those two technologies yet, but we will need them
+
+Bootstrap Grids
+--------------
+The grid system for Bootstrap is one of its most fundamental features
+So far we’ve mostly seen convenient tools that Bootstrap provides through classes.
+The grid system goes much further than that!
+
+The grid system provides the core mechanism by which using Bootstrap allows websites to look good across multiple devices of multiple screen sizes
+
+What happens on different screen sizes?
+We split the entire screen into 12 available columns.
+
+We can use any combination of numbers that will eventually add up to 12 columns
+
+The grid system call will make use of the class=”row”
